@@ -1,7 +1,10 @@
-# Rikaichamp!
+# Rikaichamp! *** Japanese-Vietnamese dictionary
 
 [![CircleCI](https://circleci.com/gh/birtles/rikaichamp.svg?style=svg)](https://circleci.com/gh/birtles/rikaichamp)
 [![Greenkeeper badge](https://badges.greenkeeper.io/birtles/rikaichamp.svg)](https://greenkeeper.io/)
+
+This is the Japanese-Vietnamese dictionary version. Translation in English is also included but it hasn't been updated for a long time. You can install it in local.
+___
 
 Look up Japanese words with the hover of a mouse.
 

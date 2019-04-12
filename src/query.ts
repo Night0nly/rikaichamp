@@ -229,7 +229,7 @@ function parseWordEntries(
     let [kanjiKana, kana, definition] = matches.slice(1);
 
     // Replace / separators in definition with ;
-    definition = definition.replace(/\//g, '; ');
+    definition = definition.replace(/\//g, '; ').replace('<br>', '\n');
 
     // Combine with previous entry if both kanji and definition match.
     const prevEntry = result.length ? result[result.length - 1] : null;

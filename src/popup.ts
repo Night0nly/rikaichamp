@@ -95,10 +95,13 @@ function renderWordEntries(
     }
 
     if (options.showDefinitions) {
-      const definitionSpan = document.createElement('span');
-      entryDiv.append(definitionSpan);
-      definitionSpan.classList.add('w-def');
-      definitionSpan.append(entry.definition);
+      entry.definition.split('*').forEach(value => {
+        const definitionSpan = document.createElement('span');
+        entryDiv.append(definitionSpan);
+        definitionSpan.classList.add('w-def');
+        definitionSpan.style.setProperty('display', 'block');
+        definitionSpan.append(value);
+      });
     }
   }
 

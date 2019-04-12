@@ -4,6 +4,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/birtles/rikaichamp.svg)](https://greenkeeper.io/)
 
 This is the Japanese-Vietnamese dictionary version. Translation in English is also included but it hasn't been updated for a long time. You can install it in local.
+The tool was used to convert the (rikaichan) Vietnamese dictionary to edict(with index file) dictionary: https://github.com/Night0nly/dict-converter-for-rikaichan (i will update this tool for others language in the future ... if i have time).
 ___
 
 Look up Japanese words with the hover of a mouse.
